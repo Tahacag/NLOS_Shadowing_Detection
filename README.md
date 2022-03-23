@@ -10,13 +10,15 @@ This functions detects intersection between line and plane . It returns a locati
 You have to put some paramaters to use this function.
 
 function [I,rc] = line_plane_intersection(u, N, n, M)
-u: normal of the plane 
-N:
-n:
-M:
+u: normal of the plane   = [x x x ]
+N: Arbitary point from plane  = [x x x]
+n: PointA  =[x x x]
+M: PointB  =[x x x]
 
 surface_user_shadowing_detection:
- You can detection for NLOS as logic using this function taking intersection location from line_plane_intersection. It can return a logic output #logic 1 : shadowing TRUE 
+ You can detection for NLOS as logic using this function taking intersection location from line_plane_intersection. It can return a logic output 
+ 
+logic 1 : shadowing TRUE 
  
 logic 2 : shadowing FALSE
   
