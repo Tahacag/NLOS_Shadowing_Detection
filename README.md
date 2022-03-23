@@ -8,7 +8,10 @@ There are two main funtion to detect this .
 line_plane_intersection: 
 This functions detects intersection between line and plane . It returns a location in 3 dimension .
 You have to put some paramaters to use this function.
-Example : 
+
+function [I,rc] = line_plane_intersection(u, N, n, M)
+n: normal of the plane 
+
 
 
 
